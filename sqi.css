@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+body{
+    background-color: rgb(31, 51, 45);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(134, 118, 102);
+}
+table {
+    background-color: rgb(185, 173, 173);
+    margin: 87px 50px;
+    border-collapse: collapse;
+    border: 3px solid rgb(163, 103, 30);
+}
+h1,th {
+    text-align: center;
+}
+th{
+    font-size: larger;
+    font-weight: 50;
+    background-color: skyblue;
+    color:#fff;
+    width:50px;
+    height: 50px;
+}
+td,th{
+    border: 2px solid black;
+}
+td,tr,th{
+    font-size: 25px;
+    padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+    body ,th,td {
+        font-size:60%;
+        width: 60%;
+    }
+    table {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    th {
+        width: 20px;
+        height: 20px;
+    }
+}
